@@ -5,11 +5,11 @@ Ce projet porte sur la création d'un audio player personnalisé permettant d'as
   Pour la création de ce player j'ai utilisé :
 - Un canvas pour le son comme affiché dans la premiere figure.
 
-- Une barre de progression avec un timer qui affiche le temps courant.
+- Une barre de progression avec un timer qui affiche le temps de la musique en cours de lecture.
 
 ![ma super image](https://raw.githubusercontent.com/Aanouhaila/Aanouhaila.github.io/main/screenshot/progress_and_timer.PNG)
 
-- Le premier bouton Knob qui permet de changer le volume.
+- Le premier bouton Knob permet de changer le volume.
 
 ![ma super image](https://raw.githubusercontent.com/Aanouhaila/Aanouhaila.github.io/main/screenshot/volume.PNG)
 
@@ -17,7 +17,7 @@ Ce projet porte sur la création d'un audio player personnalisé permettant d'as
 
 ![ma super image](https://raw.githubusercontent.com/Aanouhaila/Aanouhaila.github.io/main/screenshot/speed.PNG)
 
-- le premier switch a pour fonction de jouer l'audio en boucle infinie.
+- le premier switch a pour fonction de jouer l'audio en boucle.
 
 ![ma super image](https://raw.githubusercontent.com/Aanouhaila/Aanouhaila.github.io/main/screenshot/loop.PNG)
 
@@ -45,6 +45,6 @@ Ce projet porte sur la création d'un audio player personnalisé permettant d'as
 
 ![ma super image](https://raw.githubusercontent.com/Aanouhaila/Aanouhaila.github.io/main/screenshot/show_audio.PNG)
 
-- La playlist regroupe l'ensemble des audios, en cliquant sur un audio et le bouton play/pause la lecture du dit audio s'effectuera.
+- La playlist regroupe l'ensemble des audios. En cliquant sur le titre de l'un des morceaux, le lecteur prend comme source cette nouvelle musique. Pour la jouer, il suffira de cliquer sur le bouton play/pause.
 
 ![ma super image](https://raw.githubusercontent.com/Aanouhaila/Aanouhaila.github.io/main/screenshot/playlist.PNG)
