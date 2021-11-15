@@ -751,7 +751,7 @@ class MyAudioPlayer extends HTMLElement {
     //manage the playlist
 
     this.first.addEventListener('click', (e) => {
-      //to see
+      
       this.plpause.innerHTML = `<svg  xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" 
       fill="red" stroke="#ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10">
       </circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>`;
@@ -774,6 +774,9 @@ class MyAudioPlayer extends HTMLElement {
     
 
     this.second.addEventListener('click', (e) => {
+      this.plpause.innerHTML = `<svg  xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" 
+      fill="red" stroke="#ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10">
+      </circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>`;
       let url = this.second.getAttribute("audiourl");
       this.player.src = url;
       let titre = this.second.innerText;
@@ -782,6 +785,9 @@ class MyAudioPlayer extends HTMLElement {
     });
 
     this.third.addEventListener('click', (e) => {
+      this.plpause.innerHTML = `<svg  xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" 
+      fill="red" stroke="#ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10">
+      </circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>`;
       let url = this.third.getAttribute("audiourl");
       this.player.src = url;
       let titre = this.third.innerText;
@@ -790,6 +796,9 @@ class MyAudioPlayer extends HTMLElement {
     });
 
     this.fourth.addEventListener('click', (e) => {
+      this.plpause.innerHTML = `<svg  xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" 
+      fill="red" stroke="#ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10">
+      </circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>`;
       let url = this.fourth.getAttribute("audiourl");
       this.player.src = url;
       let titre = this.fourth.innerText;
