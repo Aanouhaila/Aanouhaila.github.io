@@ -36,7 +36,6 @@ template.innerHTML = /*html*/`
     height: 550px;
     box-shadow: 10px  0px 5px #f44336;
     text-align:center;
-    font-family: "Open Sans";
     font-size: 12px;
   }
 
