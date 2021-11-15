@@ -30,7 +30,7 @@ Ce projet porte sur la création d'un audio player personnalisé permettant d'as
 ![ma super image](https://raw.githubusercontent.com/Aanouhaila/Aanouhaila.github.io/main/screenshot/play.PNG)
 ![ma super image](https://raw.githubusercontent.com/Aanouhaila/Aanouhaila.github.io/main/screenshot/pause.PNG)
 
-- Bouton backward et forward permettent à la fois de faire un recule ou un progrès de 10 secondes.
+- Bouton backward et forward permettent à la fois de faire un recule ou un progrès de 10 secondes.  
 ![ma super image](https://raw.githubusercontent.com/Aanouhaila/Aanouhaila.github.io/main/screenshot/forward_backward.PNG)
 
 - Bouton stop permet d'arrêter la musique en cours de lecture et de revenir à l'état de départ.
